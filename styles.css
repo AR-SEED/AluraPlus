@@ -69,7 +69,12 @@ img {
     border-color: #aaaaaa;
     backdrop-filter: blur(10px);
   }
-  
+
+.boxx1 {
+    display: flex;
+    justify-content: center;
+}
+
 .box {
     diplay: flex;
     border: 1px solid #ffffff;
