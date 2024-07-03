@@ -74,4 +74,5 @@ img {
     border-radius: 15px;
     background-color: #121212;
     backdrop-filter: blur(3px);
+    max-width: 300px;
 }
