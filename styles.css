@@ -71,8 +71,9 @@ img {
   }
   
 .box {
+    border: 1px solid #ffffff;
     border-radius: 15px;
-    background-color: #121212;
+    background-color: #16161660;
     backdrop-filter: blur(3px);
-    max-width: 300px;
+    max-width: 900px;
 }
