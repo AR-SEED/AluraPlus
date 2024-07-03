@@ -70,3 +70,8 @@ img {
     backdrop-filter: blur(10px);
   }
   
+.box {
+    border-radius: 15px;
+    background-color: #121212;
+    backdrop-filter: blur(3px);
+}
