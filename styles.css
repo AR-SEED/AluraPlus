@@ -71,6 +71,7 @@ img {
   }
   
 .box {
+    diplay: flex;
     border: 1px solid #ffffff;
     border-radius: 15px;
     background-color: #16161660;
