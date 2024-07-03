@@ -28,3 +28,43 @@ body {
 img {
     weight: 200px;
 }
+
+  button, input[type="submit"], input[type="reset"] {
+    background-color: #16161660;
+    color: #ffffff;
+    border: 1px solid transparent; /* Adiciona uma borda transparente para manter o tamanho */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(3px); /* Aplica blur no fundo do botão */
+  }
+  
+  button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #7777771e;
+    backdrop-filter: blur(8px); /* Aplica blur no fundo do botão */
+    border: 1px solid #ffffff1c;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    background-color: #16161660;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    backdrop-filter: blur(3px);
+    transition: 0.5s;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    outline: none;
+    border-color: #aaaaaa;
+    backdrop-filter: blur(10px);
+  }
+  
