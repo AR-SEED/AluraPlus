@@ -27,7 +27,7 @@ body {
 }
 
 img {
-    weight: 200px;
+    height: 200px;
 }
 
   button, input[type="submit"], input[type="reset"] {
