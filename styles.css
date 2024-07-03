@@ -91,6 +91,10 @@ img {
     max-width: 900px;
 }
 
+h1 {
+    margin:5px;
+}
+
 roxo {
     color: #A900FF;
     background-color: #131313;
